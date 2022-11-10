@@ -1,0 +1,55 @@
+@import '../../../../assets/styles/_media';
+
+.grid {
+  @apply flex flex-wrap mt-6 mb-10;
+  justify-content: space-evenly;
+
+  gap: 1rem;
+  .card {
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    perspective: 700px;
+    margin: 1%;
+    &:hover {
+      .front {
+        transform: perspective(600px) rotateY(-180deg);
+      }
+      .back {
+        transform: perspective(600px) rotateY(0);
+      }
+    }
+    .front,
+    .back {
+      overflow: hidden;
+      position: absolute;
+      backface-visibility: hidden;
+      transition: transform 1s ease;
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+      background: linear-gradient(#d6d6d6, #f2f2f2);
+    }
+    .front {
+      transform: perspective(600px) rotateY(0);
+    }
+    img {
+      width: 200px;
+      height: 200px;
+    }
+    .back {
+      transform: perspective(600px) rotateY(180deg);
+
+      align-items: center;
+      text-align: center;
+      h1 {
+        color: #444;
+        font-size: 24px;
+        font-weight: 300;
+        margin: 5px 0 10px;
+        
+      }
+    }
+  } 
+}
