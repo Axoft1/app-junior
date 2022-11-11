@@ -24,7 +24,7 @@ const links = [
     link: "https://axoft1.github.io/ProjectGame/",
     title: "Проект Game",
     isImportant: true,
-    description: "В этом React приложении я использовал технологию SPA + имитация карзины для покупок во вкладке Магазин ",
+    description: "Работа с API. В этом React приложении я использовал технологию SPA + имитация карзины для покупок во вкладке Магазин ",
   },
   {
     _id: "link_3",
