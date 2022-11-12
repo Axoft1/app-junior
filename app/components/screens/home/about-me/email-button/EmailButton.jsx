@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { APP_URL } from "../../../../../constants";
 import styles from "./EmailButton.module.scss";
 
@@ -12,7 +11,7 @@ const EmailButton = () => {
         title="info@htmllessons.ru"
       >
         <span>
-          <Image
+          <img
             src={`${APP_URL}/icons/email.svg`}
             alt=""
             height={18}

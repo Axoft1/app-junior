@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { APP_URL } from "../../../../constants";
 import styles from "./AboutMe.module.scss";
 import DescriptionButton from "./description-button/DescriptionButton.jsx";
@@ -9,7 +8,7 @@ const AboutMe = ({ me }) => {
   return (
     <div className={styles.me}>
       <div className={styles.image_wrapper}>
-        <Image
+        <img
           src={`${APP_URL}${me.avatar}`}
           width={190}
           height={190}
