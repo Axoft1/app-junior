@@ -9,7 +9,7 @@ const AboutMe = ({ me }) => {
     <div className={styles.me}>
       <div className={styles.image_wrapper}>
         <img
-          src={`${APP_URL}${me.avatar}`}
+          src={me.avatar}
           width={190}
           height={190}
           className={styles.image}
@@ -21,7 +21,7 @@ const AboutMe = ({ me }) => {
         <span>Все проекты в одном месте</span>
       </div>
       <EmailButton />
-      <Telegram/>
+      <Telegram />
       <DescriptionButton description={me.description} />
     </div>
   );

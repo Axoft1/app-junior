@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACN,MAAM,CAAN,6BAAM;CAWP;;AAZD,AAGE,OAHK,GAGH,CAAC,CAAC;EACF,MAAM,CAAN,qGAAM;CAOP;;AAXH,AAMI,OANG,GAGH,CAAC,CAGD,IAAI,AAAA,YAAY,CAAC;EACf,MAAM,CAAN,8CAAM;CACP;;AARL,AASI,OATG,GAGH,CAAC,CAMD,MAAM,CAAC;EAAE,MAAM,CAAN,4BAAM;CACd",
+    "sources": [
+        "EmailButton.module.scss"
+    ],
+    "names": [],
+    "file": "EmailButton.module.css"
+}

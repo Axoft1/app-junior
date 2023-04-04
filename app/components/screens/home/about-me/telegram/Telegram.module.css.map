@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,MAAM,CAAN,iCAAM;CAWP;;AAZD,AAGE,QAHM,GAGJ,CAAC,CAAC;EACF,MAAM,CAAN,qGAAM;CAOP;;AAXH,AAMI,QANI,GAGJ,CAAC,CAGD,IAAI,AAAA,YAAY,CAAC;EACf,MAAM,CAAN,8CAAM;CACP;;AARL,AASI,QATI,GAGJ,CAAC,CAMD,MAAM,CAAC;EAAE,MAAM,CAAN,4BAAM;CACd",
+    "sources": [
+        "Telegram.module.scss"
+    ],
+    "names": [],
+    "file": "Telegram.module.css"
+}

@@ -1,0 +1,29 @@
+.section {
+  @apply overflow-hidden;
+  min-height: 100vh;
+}
+
+.section .container {
+  @apply mx-auto relative z-10;
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section .container {
+    max-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .section .container {
+    max-width: 94%;
+  }
+}
+/*# sourceMappingURL=Home.module.css.map */

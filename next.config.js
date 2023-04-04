@@ -8,7 +8,7 @@
 //     APP_ENV: process.env.REACT_APP_ENV,
 //   },
 // };
-const debug = process.env.REACT_APP_ENV !== "production";
+// const debug = process.env.REACT_APP_ENV !== "production";
 module.exports = {
   exportPathMap: async function (
     defaultPathMap,

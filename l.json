@@ -2,6 +2,32 @@
   {
     "_id": "link_1",
     "icon": {
+      "path": "/icons/onlineStore.png"
+    },
+    "gradient": {
+      "from": "#13E780",
+      "to": "#00bbd5"
+    },
+    "link": "https://axoft1.github.io/homework-online-store/",
+    "title": "Онлайн магазин Султан",
+    "description": "Проект выполнил на React TypeScript,  использовал препроцессоры SASS, выполнена адаптивная верстка. Из функционала фильтра, карзина, и админка"
+  },
+  {
+    "_id": "link_3",
+    "icon": {
+      "path": "/icons/Chess.png"
+    },
+    "gradient": {
+      "from": "#13E780",
+      "to": "#00bbd5"
+    },
+    "link": "https://axoft1.github.io/chess_app_online/",
+    "title": "ONLINE Chess",
+    "description": "Шахматы онлайн, использовал библиотеку для переноса фигур - Drag and Drop for React. Для реализации мультиплеера использовал Firebase"
+  },
+  {
+    "_id": "link_4",
+    "icon": {
       "path": "/icons/MOVIES.png"
     },
     "gradient": {
@@ -13,7 +39,7 @@
     "description": "Один из первый проектов на React, API предоставил кинопоиск"
   },
   {
-    "_id": "link_2",
+    "_id": "link_5",
     "icon": {
       "path": "/icons/game.jpg"
     },
@@ -27,7 +53,7 @@
     "description": "Работа с API. В этом React приложении я использовал технологию SPA + имитация карзины для покупок во вкладке Магазин "
   },
   {
-    "_id": "link_3",
+    "_id": "link_6",
     "icon": {
       "path": "/icons/layout.jpg"
     },
@@ -40,7 +66,7 @@
     "description": "Адаптивная верстка"
   },
   {
-    "_id": "link_4",
+    "_id": "link_7",
     "icon": {
       "path": "/icons/calendar.png"
     },
@@ -53,7 +79,7 @@
     "description": "Календарь который подсчитывает график скользящих смен, полезен для моей работы"
   },
   {
-    "_id": "link_5",
+    "_id": "link_8",
     "icon": {
       "path": "/icons/matrix.png"
     },

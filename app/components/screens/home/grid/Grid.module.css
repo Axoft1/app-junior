@@ -1,0 +1,71 @@
+.grid {
+  @apply flex flex-wrap mt-6 mb-10;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.grid .card {
+  cursor: pointer;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  -webkit-perspective: 700px;
+          perspective: 700px;
+  margin: 1%;
+}
+
+.grid .card:hover .front {
+  -webkit-transform: perspective(600px) rotateY(-180deg);
+          transform: perspective(600px) rotateY(-180deg);
+}
+
+.grid .card:hover .back {
+  -webkit-transform: perspective(600px) rotateY(0);
+          transform: perspective(600px) rotateY(0);
+}
+
+.grid .card .front,
+.grid .card .back {
+  overflow: hidden;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d6d6d6), to(#f2f2f2));
+  background: linear-gradient(#d6d6d6, #f2f2f2);
+}
+
+.grid .card .front {
+  -webkit-transform: perspective(600px) rotateY(0);
+          transform: perspective(600px) rotateY(0);
+}
+
+.grid .card img {
+  width: 200px;
+  height: 200px;
+}
+
+.grid .card .back {
+  -webkit-transform: perspective(600px) rotateY(180deg);
+          transform: perspective(600px) rotateY(180deg);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.grid .card .back h1 {
+  color: #444;
+  font-size: 23px;
+  font-weight: 300;
+  margin: 0px 0 0px;
+}
+/*# sourceMappingURL=Grid.module.css.map */
