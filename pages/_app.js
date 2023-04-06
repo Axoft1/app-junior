@@ -1,9 +1,18 @@
-import "../app/assets/styles/globals.scss";
 import Head from "next/head";
+import { QueryClient, QueryClientProvider } from "react-query";
+import "../app/assets/styles/globals.scss";
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false,
+    },
+  },
+});
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <QueryClientProvider client={queryClient}>
       <Head>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
@@ -12,7 +21,7 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Component {...pageProps} />
-    </>
+    </QueryClientProvider>
   );
 }
 

@@ -2,7 +2,7 @@
   "name": "app-junior",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://axoft1.github.io//app-junior/",
+  "homepage": "https://axoft1.github.io/app-junior/",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
