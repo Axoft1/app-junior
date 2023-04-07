@@ -1,7 +1,7 @@
 import { APP_URL } from "../../../../../constants";
 import styles from "./EmailButton.module.scss";
 
-const EmailButton = () => {
+const EmailButton = ({ iconEmail }) => {
   return (
     <div className={styles.button}>
       <a
@@ -11,12 +11,7 @@ const EmailButton = () => {
         title="info@htmllessons.ru"
       >
         <span>
-          <img
-            src={`${APP_URL}/icons/email.svg`}
-            alt=""
-            height={18}
-            width={18}
-          />
+          <img src={iconEmail} alt="" height={18} width={18} />
         </span>
         <span>Email</span>
       </a>

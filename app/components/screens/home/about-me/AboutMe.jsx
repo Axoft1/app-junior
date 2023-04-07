@@ -20,8 +20,8 @@ const AboutMe = ({ me }) => {
       <div className={styles.heading}>
         <span>Все проекты в одном месте</span>
       </div>
-      <EmailButton />
-      <Telegram />
+      <EmailButton iconEmail={me.iconEmail.path} />
+      <Telegram iconTelegram={me.iconTelegram.path} />
       <DescriptionButton description={me.description} />
     </div>
   );
